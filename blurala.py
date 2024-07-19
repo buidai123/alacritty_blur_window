@@ -1,5 +1,8 @@
 import subprocess
+import os
 
-# Run the blur effect script
-subprocess.run(["python", "C:\\Users\\Thành\\bluralacritty\\bluralacritty.py"])
+user_home = os.getenv('USERPROFILE')
+script_path = os.path.join(user_home, "bluralacritty", "bluralacritty.py")
+
+subprocess.run(['python', script_path])
 

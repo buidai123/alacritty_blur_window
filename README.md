@@ -1,3 +1,5 @@
+![alacritty screenshot](./imgs/screenshot1.png)
+
 ## Tired of sharp edges in Alacritty in Windows? Want to touch a blur and roundness?
 
 This repository is your one-stop shop for transforming your Alacritty window on Windows!
@@ -19,7 +21,7 @@ Feel free to explore the code and understand its functionality before proceeding
 
 ## Getting Started (Choose Your Adventure!)
 
-You can clone this repo or just download the script manually, it's up to you alright.
+You can clone this repo or just download the script manually to the `~\bluralacritty` directory you can place wherever you want but remember to change the path in the `blurala.py` file otherwise it won't work, it's up to you alright.
 
 ### A Note on Opacity
 
@@ -27,7 +29,7 @@ To achieve the best blur effect, you'll need to enable opacity in your Alacritty
 
 ### Testing
 
-Before diving into the setup process, let's make sure everything works as expected. Open Alacritty and run the bluralacritty.py script. If you see your Alacritty window adorned with a beautiful blur and rounded corners, you're good to go!
+Before diving into the setup process, let's make sure everything works as expected. Open Alacritty and run the `bluralacritty.py` script. If you see your Alacritty window adorned with a beautiful blur and rounded corners, you're good to go!
 
 But what if you close and reopen Alacritty? The blur and rounded effect might vanish. Don't worry, we have a solution for that!
 
@@ -43,9 +45,9 @@ pyinstaller --onefile blurala.py
 
 This will create a new directory called dist containing the executable file named blurala.exe.
 
-2. **Adding it to Your PATH**: Now, you need to move the blurala.exe file to a directory that's included in your system's PATH environment variable. This allows you to access the executable from any location in your command prompt. (Note: You might need administrator privileges for this step.). A common location for system-wide executables is C:\Windows
+2. **Adding it to Your PATH**: Now, you need to move the blurala.exe file to a directory that's included in your system's PATH environment variable. This allows you to access the executable from any location in your command prompt. (`Note:` You might need administrator privileges for this step.). A common location for system-wide executables is `C:\Windows`
 
-3. **Testing the Macgic**: Press Windows Key + R to open the Run dialog. Then, type blurala and press Enter.
+3. **Testing the Macgic**: Press `Windows Key` + `R` to open the Run dialog. Then, type blurala and press Enter.
 
 Voila! If everything went smoothly, the blur and rounded corner effect script should run, transforming your Alacritty window every time you use the custom command.
 
